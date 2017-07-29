@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.leyifu.firstcode.activity.CollapsingToolBarActivity">
+
+    <com.leyifu.firstcode.view.MyToggle
+        android:id="@+id/my_toggle_top"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        custom:title="自动更新"
+        custom:type="top" />
+
+    <com.leyifu.firstcode.view.MyToggle
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        custom:title="自动更新02"
+        custom:type="mid" />
+
+    <com.leyifu.firstcode.view.MyToggle
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        custom:title="自动更新03"
+        custom:type="button" />
+
+</LinearLayout>
